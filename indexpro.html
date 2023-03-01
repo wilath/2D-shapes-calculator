@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Summerwild~!!</title>
+  <link href="style2.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ece4cd7208.js" crossorigin="anonymous"></script>
+
+<body>
+  <div class="wrap">
+
+    <div id="score" class="input"> <!--display slot-->
+      
+    </div>
+
+
+    <div class="slot1"> <!--slot1-->
+      <button class="button pink" onclick="butt(0)">Triangle</button>
+      <button class="button pink" onclick="butt(1)">Paralleogram</button>
+      <button class="button pink" onclick="butt(2)">N-gon</button>
+      <button class="button pink" onclick="butt(3)">Circle</button>
+      </div>
+    <div class="slot2"> <!--slot2-->
+        <div class="buttonWrap">
+          <div class="display2"></div>
+          <button onclick="setFocus()" class="button orange pickWay"></button>
+        </div>
+        <div class="buttonWrap">
+          <div class="display2"></div>
+          <button onclick="setFocus()" class="button orange pickWay"></button>
+        </div>
+        <div class="buttonWrap">
+          <div class="display2"></div>
+          <button onclick="setFocus()" class="button orange pickWay"></button>
+        </div>
+        
+        
+        
+      
+    </div>
+
+
+    <div class="area"> <!--area or circuit-->
+      <div class="slider">
+        <div id="dot" class="dot" onclick="sliderFunction()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="sliderLabels">
+        <span >Area </span>
+        <span >Circuit</span>
+      </div>
+     
+    </div>
+    <div class="numbers"> <!--numbers-->
+      <button class="button gray" onclick="numberFunction(1)">1</button>
+      <button class="button gray" onclick="numberFunction(2)">2</button>
+      <button class="button gray" onclick="numberFunction(3)">3</button>
+      <button class="button gray" onclick="numberFunction(4)">4</button>
+      <button class="button gray" onclick="numberFunction(5)">5</button>
+      <button class="button gray" onclick="numberFunction(6)">6</button>
+      <button class="button gray" onclick="numberFunction(7)">7</button>
+      <button class="button gray" onclick="numberFunction(8)">8</button>
+      <button class="button gray" onclick="numberFunction(9)">9</button>
+      <button class="button gray" onclick="numberFunction('D')">D</button>
+      <button class="button gray" onclick="numberFunction(0)">0</button>
+      <button class="button gray" onclick="numberFunction('C')">C</button>
+
+      <div class="calculate"> <!--calculate-->
+        <button class="button black" onclick="calculate()">Calculate</button>
+      </div>
+    </div>
+
+    <div class="slot3"><!--slot3-->
+      <div class="buttonWrap">
+        <div class="display3"></div>
+        <input onclick="findFocus()" class="displayInput" type="text">
+      </div>
+      <div class="buttonWrap">
+        <div class="display3"></div>
+        <input onclick="findFocus()" class="displayInput" type="text">
+      </div>
+      <div class="buttonWrap">
+        <div class="display3"></div>
+        <input onclick="findFocus()" class="displayInput" type="text">
+      </div>
+      <div class="buttonWrap">
+        <div class="display3"></div>
+        <input onclick="findFocus()" class="displayInput" type="text">
+      </div>
+      <div class="buttonWrap">
+        <div class="display3"></div>
+        <input onclick="findFocus()" class="displayInput" type="text">
+      </div>
+      <div class="buttonWrap">
+        <div class="display3"></div>
+        <input onclick="findFocus()" class="displayInput" type="text">
+      </div>
+
+
+      
+    </div>
+    
+
+
+
+  </div> <!--wrap endend-->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
